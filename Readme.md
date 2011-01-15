@@ -40,9 +40,9 @@ TODO
 ---
 This TODO is for Firefox 4, and complete. There should be no other changes required to make (most of) the pain go away.
 
-1) At build-time, add a "compacticons" attribute (or equivalent) to the primary toolbar on win/mac, so that authors may distinguish between regular large toolbars (Firefox 3, Firefox 4 mac) and compact large toolbars (Firefox 4 win/mac)
-2) At build-time, add a "monochromeicons" attribute (or equivalent) to the built-in toolbars on mac, so that authors may distinguish between "colorful" toolbars and monochrome ones on mac
-3) Fix winstripe to use 16x16 icons everywhere
+1. At build-time, add a "compacticons" attribute (or equivalent) to the primary toolbar on win/mac, so that authors may distinguish between regular large toolbars (Firefox 3, Firefox 4 mac) and compact large toolbars (Firefox 4 win/mac)
+2. At build-time, add a "monochromeicons" attribute (or equivalent) to the built-in toolbars on mac, so that authors may distinguish between "colorful" toolbars and monochrome ones on mac
+3. Fix winstripe to use 16x16 icons everywhere
 
 Current situation, as of 2011-01-15
 ---
