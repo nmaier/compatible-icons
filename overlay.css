@@ -1,0 +1,44 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/************************************************************************
+ * CreativeCommons CC0
+ * To the extent possible under law, Nils Maier has waived all copyright
+ * and related or neighboring rights to compatible-icons.
+ ************************************************************************/
+
+/* Large icons; 24px
+ * For:
+ *  - Firefox 3, large toolbar
+ *  - Firefox 4 unix, large toolbar
+ *
+ * The default should be the 24px rule, to preserve backwards-compatibility
+ * with the Firefox 3 de-facto standard to specify toolbar rules
+ *
+ * The !important is required, as browser.css will override the rule otherwise
+ * because it includes a more specific rule:
+ * toolbarbutton-1:not([type="menu-button])
+ * Normally one would use ids, not classes, so don't mind this
+ */
+.compatible-icons-button {
+	list-style-image: url(icon24.png) !important;
+}
+
+/* Small icons; 16px
+ * For:
+ *  - Firefox 3, small toolbar
+ *  - Firefox 4 win/mac, large toolbar
+ *  - Firefox 4 all, small toolbar
+ */
+toolbar[compacticons] .compatible-icons-button,
+toolbar[iconsize="small"] .compatible-icons-button {
+	list-style-image: url(icon16.png) !important;
+}
+
+/* OPTIONAL
+ * Small monochrome icons; 16px
+ * For:
+ *  - Firefox 4 mac
+ */
+toolbar[monochromeicons] .compatible-icons-button {
+	list-style-image: url(icon16-monochrome.png) !important;
+}

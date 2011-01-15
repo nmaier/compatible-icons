@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/************************************************************************
+ * CreativeCommons CC0
+ * To the extent possible under law, Nils Maier has waived all copyright
+ * and related or neighboring rights to compatible-icons.
+ ************************************************************************/
+-->
+<!DOCTYPE overlay>
+<overlay id="compatibleiconsoverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="text/javascript" src="overlay.js"/>
+  <toolbarpalette id="BrowserToolbarPalette">
+    <toolbarbutton id="compatible-icons-main" class="chromeclass-toolbar-additional toolbarbutton-1 compatible-icons-button" label="Compatible Icons"/>
+    <toolbarbutton id="compatible-icons-tabs" class="chromeclass-toolbar-additional toolbarbutton-1 compatible-icons-button" label="Compatible Icons"/>
+    <toolbarbutton id="compatible-icons-addon" class="chromeclass-toolbar-additional toolbarbutton-1 compatible-icons-button" label="Compatible Icons"/>
+    <toolbarbutton id="compatible-icons-bookmark" class="chromeclass-toolbar-additional toolbarbutton-1 compatible-icons-button" label="Compatible Icons"/>
+    <toolbarbutton id="compatible-icons-customize" class="chromeclass-toolbar-additional toolbarbutton-1 compatible-icons-button" label="Compatible Icons"/>
+  </toolbarpalette>
+</overlay>
