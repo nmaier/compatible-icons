@@ -19,7 +19,6 @@ addEventListener('load', function() {
 	/* Helper: Add an item to a toolbar  */
 	function addToToolbar([toolbar, item]) {
 		item = 'compatible-icons-' + item;
-			alert(item);
 		toolbar = $(toolbar);
 		if (!item || !toolbar)
 			return;
